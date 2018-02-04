@@ -1,19 +1,19 @@
 # GyroLog
 
-A simple PyQt3D app I wrote to display the data collected by the optical fiber gyroscope from the Menhir rocket, launched by the [Groupe Aérospatial de l'Université Laval](https://www.facebook.com/groupeaerospatialul/) at Spaceport America Cup 2017. It's not very well optimized and there's a lot of commented code, but it does the job.
+A simple PyQt3D app I originally wrote to display the data collected by the optical fiber gyroscope from the Menhir rocket, [launched](https://www.youtube.com/watch?v=VAV17hzAZ-k) by the [Groupe AÃ©rospatial de l'UniversitÃ© Laval](https://www.facebook.com/groupeaerospatialul/) at [Spaceport America Cup 2017](https://www.spaceportamericacup.com/). It's not very well optimized and there's a lot of commented code, but it does the job.
 
 Unfortunately, the laser power system failed at ignition due to a blown MOSFET, so we did not manage to record flight data, but the rocket launched and landed fine. The app instead reads the log file from our Blackbird rocket launched in 2015, which was recorded by a commercial electronic gyroscope.
 
----
+![screenshot](https://user-images.githubusercontent.com/1380241/35773674-bedada68-0926-11e8-99a4-6b346ca12762.png)
 
 How to run: `python main.py` then press the play button bottom-right
-Recommended distribution: WinPython3 Qt5
+
+Recommended distribution: [WinPython 3.6+ Qt5](https://winpython.github.io/)
+
 Required:
 
 	python3
-	pyqt5 (v5.8+)
-	pyqt3d (v5.8+)
+	pyqt5 (5.8+)
+	pyqt3d (5.8+)
 
----
-
-This project is licensed under the [GNU GPL v3](http://tldrlegal.com/l/gpl-3.0). Copyright © 2017 - 2018 AgentRev
+This project is licensed under the [GNU GPL v3](http://tldrlegal.com/l/gpl-3.0). Copyright Â© 2017 - 2018 AgentRev
