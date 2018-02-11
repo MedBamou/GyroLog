@@ -4,7 +4,7 @@ A simple PyQt3D app I originally wrote to display the data collected by the opti
 
 Unfortunately, the laser power system failed at ignition due to a blown MOSFET, so we did not manage to record flight data, but the rocket launched and landed fine. The app instead reads the log file from our Blackbird rocket launched in 2015, which was recorded by a commercial electronic gyroscope.
 
-![screenshot](https://user-images.githubusercontent.com/1380241/36078604-f91202ee-0f46-11e8-9160-f7bebb5381df.png)
+![screenshot](https://user-images.githubusercontent.com/1380241/36078947-68960922-0f4b-11e8-9b83-65654c289253.png)
 
 How to run: `python gyrolog.py` then press the play button bottom-right
 
